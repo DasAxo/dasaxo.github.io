@@ -1,0 +1,53 @@
+<head>
+    
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>get to know me !!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Condensed+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+    
+<section class="welcome">
+         <div class="welcome-container">
+             <h1 class="highlight">hey there !!</h1>
+         <div class="about-me">     
+            <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+            <h2></h2>
+            <button class="btn" onclick="window.location.href='abtme.html'">About Me</button>
+            <button class="btn" onclick="window.location.href='Contact.html'">Contact</button>
+            <button class="btn" onclick="window.location.href='gallery.html'">Gallery</button>
+            <button class="btn" onclick="window.location.href='testshit.html'">Test shit</button>
+            
+
+ 
+            <p></p>
+         </div>
+        </div>
+</section>
+
+
+<img class="customcursor" id="mouseicon" src="customcursor.png" alt="Mouse Icon" style="position: absolute; pointer-events: none;">
+</body>
+<script src="/src/scripts/main.js"></script>
+<script>
+    // cursor Tracker
+    const mouseIcon = document.getElementById('mouseicon');
+    document.addEventListener('mousemove', (event) => {
+        const { clientX, clientY } = event;
+        mouseIcon.style.left = clientX + 'px';
+        mouseIcon.style.top =  clientY + 'px';
+        console.log(`Mouse position: (${clientX}, ${clientY})`);
+    });
+    
+    
+
+
+
+</script>
+</html>

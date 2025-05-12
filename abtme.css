@@ -1,0 +1,648 @@
+
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    animation: fadeBackground 5s ease-in-out infinite alternate;
+    background: linear-gradient(to bottom, black, grey);
+    animation: fadeBackground 5s ease-in-out infinite alternate;
+    font-size: 10rem;
+    background-image: radial-gradient(circle, rgb(75, 75, 75) 1px, transparent 1px);
+    background-size: 30px 30px; /* Further increased spacing between dots */
+    z-index: -1;
+    background-color: rgb(22, 22, 22) !important;
+    background-attachment: fixed;
+    box-shadow: 20 20 20px rgba(0, 0, 0, 0.5), 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 5rem; /* Adjusted font size for smaller screens */
+    }
+}
+@media (max-width: 480px) {
+    body {
+        font-size: 3rem; /* Further adjusted font size for very small screens */
+    }
+}
+@media (max-width: 320px) {
+    body {
+        font-size: 2rem; /* Further adjusted font size for very small screens */
+    }
+}
+@media (max-width: 2560px) {
+    body {
+        font-size: 15rem; /* Adjusted font size for larger screens */
+    }
+}
+
+
+.textabtme{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    font-size: 2rem; /* Adjusted font size for larger screens */
+    text-align: center;
+    margin-top: -01rem;
+    position: relative;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 5rem; /* Adjusted font size for smaller screens */
+    }
+}
+@media (max-width: 480px) {
+    body {
+        font-size: 3rem; /* Further adjusted font size for very small screens */
+    }
+}
+@media (max-width: 320px) {
+    body {
+        font-size: 2rem; /* Further adjusted font size for very small screens */
+    }
+}
+@media (max-width: 2560px) {
+    body {
+        font-size: 15rem; /* Adjusted font size for larger screens */
+    }
+}
+
+.welcome-container {
+background-color: rgba(0, 0, 0, 0.5);
+backdrop-filter: blur(10px);
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 2rem;
+margin: 20vh auto;
+width: fit-content;
+min-width: 300px;
+position: relative;
+box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+}
+
+.textabtme {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem; 
+    text-align: center; 
+    position: relative;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+.margintext:hover {
+    color: rgb(132, 0, 255);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8), 0 0 20px rgba(148, 0, 211, 0.8), 0 0 30px rgba(148, 0, 211, 0.8);
+    
+}
+.margintext p:hover {
+    color: rgb(132, 0, 255);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8), 0 0 20px rgba(148, 0, 211, 0.8), 0 0 30px rgba(148, 0, 211, 0.8);
+    
+}
+.margintext a {
+    color: rgb(132, 0, 255);
+    text-decoration: none;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.instabutton {
+    
+       
+    margin-top: -140px;
+    margin-left: 240px;
+    max-height: 150px;
+max-width: 200px;
+width: 120px;
+height: 120px;    
+background-color: #6b1f8f91;
+border-radius: 54%;
+text-shadow: 0 0 10px rgba(0, 0, 0, 0.8), 0 0 20px hwb(282 0% 17% / 0.8), 0 0 30px rgba(148, 0, 211, 0.8);
+font-size: 1.2rem;  
+text-align: center;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 1.2rem;
+transition: background-color 0.3s ease, transform 0.3s ease;
+font: bold 1.2rem 'Courier New', Courier, monospace;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+position: relative;
+z-index: 1;
+text-decoration: none;
+display: inline-block;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 1px;
+background-image: linear-gradient(to right, rgb(132, 0, 255), rgb(148, 0, 211));
+background-size: 200% 100%;
+background-position: left center;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 0 10px rgba(255, 255, 255, 0.2);      
+}
+.instabutton:hover {
+    
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.instabutton:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-container h1 {
+    color: rgba(255, 255, 255, 0.884);
+    font-size: 3rem; 
+    text-shadow: 0 0 0 rgb(255, 255, 255);
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.welcome-container h1:hover {
+    color: rgb(132, 0, 255);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8), 0 0 20px rgba(148, 0, 211, 0.8), 0 0 30px rgba(148, 0, 211, 0.8);
+    
+}
+
+.dcbutton {
+    margin-top: -140px;
+    margin-right: 90px;
+    max-height: 150px;
+max-width: 200px;
+width: 120px;
+height: 120px;
+background-color: #6b1f8f91;
+border-radius: 54%;
+text-shadow: 0 0 10px rgba(0, 0, 0, 0.8), 0 0 20px rgba(148, 0, 211, 0.8), 0 0 30px rgba(148, 0, 211, 0.8);
+font-size: 1.2rem;
+text-align: center;
+padding: 10px 20px;
+border: none;   
+border-radius: 5px;
+cursor: pointer;
+font-size: 1.2rem;
+transition: background-color 0.3s ease, transform 0.3s ease;
+font: bold 1.2rem 'Courier New', Courier, monospace;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+position: relative;
+z-index: 1;
+text-decoration: none;
+display: inline-block;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 1px;
+background-image: linear-gradient(to right, rgb(132, 0, 255), rgb(148, 0, 211));
+background-size: 200% 100%;
+background-position: left center;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 0 10px rgba(255, 255, 255, 0.2);      
+}
+
+.dcbutton:hover {
+    
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.dcbutton:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.dcbutton:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(132, 0, 255, 0.5);
+    background-color: rgb(148, 0, 211);
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8), 0 0 20px rgba(148, 0, 211, 0.8), 0 0 30px rgba(148, 0, 211, 0.8);
+    color: rgb(132, 0, 255);
+    background-image: linear-gradient(to right, rgb(132, 0, 255), rgb(148, 0, 211));
+    background-size: 200% 100%;
+    background-position: left center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 0 10px rgba(255, 255, 255, 0.2);
+    font-family: 'San Francisco', bold, monospace;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;    
+    
+}
+.btn {
+    
+    margin-top: 35px;
+    background-color: rgb(39, 18, 58);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font: bold 1.2rem 'Courier New', Courier, monospace;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-image: linear-gradient(to right, rgb(132, 0, 255), rgb(148, 0, 211));
+    background-size: 200% 100%;
+    background-position: left center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 0 10px rgba(255, 255, 255, 0.2);
+    transition: background-position 0.5s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8), 0 0 20px rgba(148, 0, 211, 0.8), 0 0 30px rgba(148, 0, 211, 0.8);
+    font-family: 'San Francisco', bold, monospace;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-image: linear-gradient(to right, rgb(132, 0, 255), rgb(148, 0, 211));
+    background-size: 200% 100%;
+    background-position: left center;  
+}
+.btn:hover {
+    background-color: rgb(148, 0, 211);
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.btn:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(132, 0, 255, 0.5);
+}
+
+.emailbtn {
+    margin-right: 750px;
+    max-height: 150px;
+max-width: 200px;
+width: 120px;
+height: 120px;
+background-color: #6b1f8f91;
+border-radius: 54%;
+text-shadow: 0 0 10px rgba(0, 0, 0, 0.8), 0 0 20px rgba(148, 0, 211, 0.8), 0 0 30px rgba(148, 0, 211, 0.8);
+font-size: 1.2rem;
+text-align: center;
+padding: 10px 20px;
+border: none;   
+border-radius: 5px;
+cursor: pointer;
+font-size: 1.2rem;
+transition: background-color 0.3s ease, transform 0.3s ease;
+font: bold 1.2rem 'Courier New', Courier, monospace;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+position: relative;
+z-index: 1;
+text-decoration: none;
+display: inline-block;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 1px;
+background-image: linear-gradient(to right, rgb(132, 0, 255), rgb(148, 0, 211));
+background-size: 200% 100%;
+background-position: left center;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 0 10px rgba(255, 255, 255, 0.2);      
+}
+
+.emailbtn:hover {
+    
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.emailbtn:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ytbtn {
+   
+    margin-right: 420px;
+    max-height: 200px;
+max-width: 200px;
+width: 120px;
+height: 120px;
+    min-height: 100px;
+ margin-top: -140px;   ;
+    background-color: #6b1f8f91;
+    max-height: 150px;
+max-width: 200px;
+width: 120px;
+height: 120px;  
+background-color: #6b1f8f91;
+border-radius: 54%;
+text-shadow: 0 0 10px rgba(0, 0, 0, 0.8), 0 0 20px rgba(148, 0, 211, 0.8), 0 0 30px rgba(148, 0, 211, 0.8);
+font-size: 1.2rem;
+text-align: center;
+padding: 10px 20px;
+border: none;   
+border-radius: 5px;
+cursor: pointer;
+font-size: 1.2rem;
+transition: background-color 0.3s ease, transform 0.3s ease;
+font: bold 1.2rem 'Courier New', Courier, monospace;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+position: relative;
+z-index: 1;
+text-decoration: none;
+display: inline-block;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 1px;
+background-image: linear-gradient(to right, rgb(132, 0, 255), rgb(148, 0, 211));
+background-size: 200% 100%;
+background-position: left center;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 0 10px rgba(255, 255, 255, 0.2);      
+}
+
+.ytbtn:hover {
+    
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.ytbtn:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}   
+
+.about-me {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem; 
+    text-align: center; 
+    margin-top: 2rem; 
+    position: relative;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+
+}
+
+.about-me:hover {
+    color: rgb(132, 0, 255);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8), 0 0 20px rgba(148, 0, 211, 0.8), 0 0 30px rgba(148, 0, 211, 0.8);
+    
+}
+
+
+
+.about-me p:hover {
+    color: rgb(132, 0, 255);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8), 0 0 20px rgba(148, 0, 211, 0.8), 0 0 30px rgba(148, 0, 211, 0.8);
+    
+}
+
+.about-me a {
+    color: rgb(132, 0, 255);
+    text-decoration: none;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    border: 5px solid rgba(255, 0, 234, 0.096);
+    object-fit: cover;
+}
+.profile-pic:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.884);
+}
+
+/* hover animation */
+.highlight {
+    color: var(--primary);
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.highlight::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: 1px;
+    left: 0;
+    background: var(--primary);
+    border-radius: 20px;
+    transition: width 0.6s cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+.highlight:hover::after {
+    width: 100%;
+    box-shadow: 0 0 10px var(--primary);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .welcome-container {
+        width: 90%;
+        margin: 10vh auto;
+        padding: 1rem;
+    }
+    .welcome-container h1 {
+        font-size: 2.5rem;
+    }
+    .about-me {
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 480px) {
+    .welcome-container h1 {
+        font-size: 2rem;
+    }
+    .about-me {
+        font-size: 1rem;
+    }
+}
+
+
+
+.profile-pic:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.884);
+}
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    border: 5px solid rgba(255, 0, 234, 0.096);
+    object-fit: cover;
+}
+.profile-pic:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.884);
+}
+
+/* hover animation */
+.highlight {
+    color: var(--primary);
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.highlight::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: 1px;
+    left: 0;
+    background: var(--primary);
+    border-radius: 20px;
+    transition: width 0.6s cubic-bezier(0.65, 0, 0.35, 1);
+}
+.highlight:hover::after {
+    width: 100%;
+    box-shadow: 0 0 10px var(--primary);
+}
+/* Responsive design */
+@media (max-width: 768px) {
+    .welcome-container {
+        width: 90%;
+        margin: 10vh auto;
+        padding: 1rem;
+    }
+    .welcome-container h1 {
+        font-size: 2.5rem;
+    }
+    .about-me {
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 480px) {
+    .welcome-container h1 {
+        font-size: 2rem;
+    }
+    .about-me {
+        font-size: 1rem;
+    }
+}
+
+/* Responsive design */
+
+.tiktokbutton {
+    margin-top: -140px;
+    margin-left: 570px;
+    max-height: 150px;
+max-width: 200px;
+width: 120px;
+height: 120px;
+background-color: #6b1f8f91;
+border-radius: 54%;
+text-shadow: 0 0 10px rgba(0, 0, 0, 0.8), 0 0 20px rgba(148, 0, 211, 0.8), 0 0 30px rgba(148, 0, 211, 0.8);
+font-size: 1.2rem;  
+text-align: center;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 1.2rem;
+transition: background-color 0.3s ease, transform 0.3s ease;
+font: bold 1.2rem 'Courier New', Courier, monospace;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+position: relative; 
+z-index: 1;
+text-decoration: none;
+display: inline-block;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 1px;
+background-image: linear-gradient(to right, rgb(132, 0, 255), rgb(148, 0, 211));
+background-size: 200% 100%;
+background-position: left center;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 0 10px rgba(255, 255, 255, 0.2);      
+}
+.tiktokbutton:hover {
+    
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.tiktokbutton:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.tiktokbutton:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(132, 0, 255, 0.5);
+    background-color: rgb(148, 0, 211);
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8), 0 0 20px rgba(148, 0, 211, 0.8), 0 0 30px rgba(148, 0, 211, 0.8);
+    color: rgb(132, 0, 255);
+    background-image: linear-gradient(to right, rgb(132, 0, 255), rgb(148, 0, 211));
+    background-size: 200% 100%;
+    background-position: left center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 0 10px rgba(255, 255, 255, 0.2);
+    font-family: 'San Francisco', bold, monospace;
+    font-weight: bold;
+    font-size: .9rem;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5px;    
+    
+}
+.tiktokbutton:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(132, 0, 255, 0.5);
+    background-color: rgb(148, 0, 211);
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8), 0 0 20px rgba(148, 0, 211, 0.8), 0 0 30px rgba(148, 0, 211, 0.8);
+    color: rgb(132, 0, 255);
+    background-image: linear-gradient(to right, rgb(132, 0, 255), rgb(148, 0, 211));
+    background-size: .9rem;
+    background-position: left center;
+    box-shadow: .9rem;
+    inset: 9rem;
+    box-shadow: .9rem;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .welcome-container {
+        width: 90%;
+        margin: 10vh auto;
+        padding: 1rem;
+    }
+    .welcome-container h1 {
+        font-size: 2.5rem;
+    }
+    .about-me {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .welcome-container h1 {
+        font-size: 2rem;
+    }
+    .about-me {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 320px) {
+    .welcome-container h1 {
+        font-size: 1.5rem;
+    }
+    .about-me {
+        font-size: 0.8rem;
+    }
+}
